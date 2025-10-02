@@ -7,7 +7,7 @@ Integrates phosphorylation analysis, transposon analysis, and genome browser fun
 import streamlit as st
 from pathlib import Path
 from src.phosphorylation_page import show_phosphorylation_page
-from src.transposon_analysis_page import show_transposon_page
+from src.transposon_analysis_page import show as show_transposon_analysis
 from src.genome_browser import create_genome_browser_page
 
 # Configure the main page
@@ -31,7 +31,7 @@ elif page == "Phosphorylation Analysis":
     show_phosphorylation_page()
 
 elif page == "Transposon Analysis":
-    show_transposon_page()
+    show_transposon_analysis()
 
 elif page == "Genome Browser":
     create_genome_browser_page()

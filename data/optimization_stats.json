@@ -1,0 +1,12 @@
+{
+  "total_genes": 5422,
+  "genes_with_orthologs": 144,
+  "total_ta_sites": 96259,
+  "significant_sites": 67572,
+  "mean_coverage": 25.432020209365707,
+  "file_sizes": {
+    "pickle_mb": 24.515464782714844,
+    "genes_parquet_mb": 0.2400979995727539,
+    "ta_parquet_mb": 2.2127151489257812
+  }
+}
