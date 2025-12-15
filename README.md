@@ -12,8 +12,13 @@ A simple Streamlit app template for you to modify!
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+
+2. Run de app
 
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### Multi-page functionaliteit
+
+Deze app bevat meerdere pagina's. Gebruik de zijbalk (sidebar) om te navigeren tussen de verschillende pagina's, zoals 'Home' en 'About'.
